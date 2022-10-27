@@ -25,10 +25,14 @@ body {
 	overflow-x: hidden;
 	background-color: #FEFCFE;
 	scrollbar-width: none;
+	background-image: url("./die.png");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: #FEFCFE;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Michroma&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono&display=swap');
 
 
 strong {
@@ -52,7 +56,7 @@ code {
 #text01 {
 	text-align: center;
 	color: #121212;
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -63,7 +67,7 @@ code {
 #toc {
 	text-align: right;
 	color: #121212;
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -76,7 +80,7 @@ code {
 #tocc {
 	text-align: center;
 	color: #121212;
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.1rem;
 	width: calc(100% + 0.05rem);
 	font-size: 15pt;
@@ -119,7 +123,7 @@ code {
 #social {
 	text-align: center;
 	color: #121212;
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -132,57 +136,71 @@ code {
 
 #text {
 	text-align: center;
-	color: #121212;
-	font-family: 'Space Mono', monospace;;
+	color: #ffffff;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
-	font-size: 0.875em;
-	line-height: 2.5;
-	font-weight: 400;
-	padding-right: 1rem;
-}
-
-#toptext {
-	text-align: center;
-	color: #121212;
-	font-family: 'Space Mono', monospace;;
-	letter-spacing: 0.05rem;
-	width: calc(100% + 0.05rem);
-	font-size: 0.675em;
+	font-size: 1.5em;
 	line-height: 1.5;
 	font-weight: 400;
 	padding-top: 2rem;
 	padding-left: 1em;
 	padding-right: 1em;
+	filter: drop-shadow(1px 1px 4px #FFFFFF);
+	mix-blend-mode: difference;
+}
+
+#toptext {
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Michroma', sans-serif;
+	letter-spacing: 0.05rem;
+	width: calc(100% + 0.05rem);
+	font-size: 1.5em;
+	line-height: 1.5;
+	font-weight: 400;
+	padding-top: 2rem;
+	padding-left: 1em;
+	padding-right: 1em;
+	filter: drop-shadow(1px 1px 4px #FFFFFF);
+	mix-blend-mode: difference;
 }
 
 
 #toptext a:visited {
-	color: #0000EE;
+	color: #ffffff;
+}
+#toptext a {
+	color: #ffffff;
 }
 
 
 #toptextsmaller {
 	text-align: center;
-	color: #121212;
-	font-family: 'Space Mono', monospace;;
+	color: #FFFFFF;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
-	font-size: 0.775em;
+	font-size: 125%;
 	line-height: 1.5;
 	font-weight: 400;
 	padding-top: 1rem;
 	padding-bottom: 1em;
+	mix-blend-mode: difference;
+	filter: drop-shadow(1px 1px 4px #FFFFFF);
 }
 
 #toptextsmaller a:visited {
-	color:#0000EE;
+	color:#FFFFFF;
+}
+#toptextsmaller a {
+	color:#FFFFFF;
 }
 
 #toptextsmallest {
 	text-align: center;
 	color: #121212;
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.575em;
@@ -213,7 +231,7 @@ code {
 #bottomtext {
 	text-align: center;
 	color: #f5f4f2;
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.875em;
@@ -286,6 +304,19 @@ code {
 	cursor: default;
 	padding: 0;
 	line-height: 1;
+	text-align: center;
+	color: #ffffff;
+	font-family: 'Michroma', sans-serif;
+	letter-spacing: 0.05rem;
+	width: calc(100% + 0.05rem);
+	font-size: 1.5em;
+	line-height: 1.5;
+	font-weight: 400;
+	padding-top: 2rem;
+	padding-left: 1em;
+	padding-right: 1em;
+	filter: drop-shadow(4px 4px 12px #FFFFFF);
+	mix-blend-mode: difference;
 }
 
 .row {
@@ -305,7 +336,7 @@ code {
 #music-stream {
 	margin-left: -0.5rem;
 	width: calc(100% + 1.05rem);
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	font-size: 1em;
 	font-weight: 400;
@@ -316,7 +347,7 @@ code {
 #desc {
 	text-align: center;
 	color: #121212;
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	width: calc(100% + 0.05rem);
 	font-size: 0.4em;
@@ -342,7 +373,7 @@ code {
 #links {
 	margin-left: -0.5rem;
 	width: calc(100% + 1.05rem);
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	letter-spacing: 0.05rem;
 	font-size: 1em;
 	font-weight: 400;
@@ -350,6 +381,7 @@ code {
 	padding-right: 1rem;
 	padding-top: 0.15rem;
 	padding-bottom: 0.15rem;
+	color: #ffffff;
 }
 
 #links li {
@@ -359,7 +391,7 @@ code {
 }
 
 #links a:visited {
-	color:#0000EE;
+	color:#FFFFFF;
 }
 
 #links a {
@@ -387,7 +419,7 @@ code {
 .row {
 	display: flexbox;
 	align-content: center;
-	font-family: 'Space Mono', monospace;;
+	font-family: 'Michroma', sans-serif;
 	font-size: 15pt;
 	font-weight: 100;
 	color: #121212;
